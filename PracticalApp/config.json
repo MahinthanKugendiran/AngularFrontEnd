@@ -1,0 +1,11 @@
+﻿{
+  "ConnectionStrings": {
+    //"InventoryManagementConnectionString": "server=localhost;Database=InventoryManagement;Integrated Security=true;MultipleActiveResultSets=true;"
+    "PracticalAppConnectionString": "server=localhost\\MAHISQL;Database=PracticalAppDB;Integrated Security=true;MultipleActiveResultSets=true;" //localhost\MAHISQL
+  },
+  "Tokens": {
+    "Key": "dfsdnf8u83t3tu3t3;;hbnh3t3t",
+    "Issuer": "localhost",
+    "Audience": "Bearer"
+  }
+}

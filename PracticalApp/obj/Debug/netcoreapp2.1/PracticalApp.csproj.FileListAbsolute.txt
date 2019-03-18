@@ -1,0 +1,11 @@
+G:\Practical Exam 02\PracticalApp\PracticalApp\bin\Debug\netcoreapp2.1\PracticalApp.deps.json
+G:\Practical Exam 02\PracticalApp\PracticalApp\bin\Debug\netcoreapp2.1\PracticalApp.runtimeconfig.json
+G:\Practical Exam 02\PracticalApp\PracticalApp\bin\Debug\netcoreapp2.1\PracticalApp.runtimeconfig.dev.json
+G:\Practical Exam 02\PracticalApp\PracticalApp\bin\Debug\netcoreapp2.1\PracticalApp.dll
+G:\Practical Exam 02\PracticalApp\PracticalApp\bin\Debug\netcoreapp2.1\PracticalApp.pdb
+G:\Practical Exam 02\PracticalApp\PracticalApp\obj\Debug\netcoreapp2.1\PracticalApp.csprojAssemblyReference.cache
+G:\Practical Exam 02\PracticalApp\PracticalApp\obj\Debug\netcoreapp2.1\PracticalApp.csproj.CoreCompileInputs.cache
+G:\Practical Exam 02\PracticalApp\PracticalApp\obj\Debug\netcoreapp2.1\PracticalApp.AssemblyInfoInputs.cache
+G:\Practical Exam 02\PracticalApp\PracticalApp\obj\Debug\netcoreapp2.1\PracticalApp.AssemblyInfo.cs
+G:\Practical Exam 02\PracticalApp\PracticalApp\obj\Debug\netcoreapp2.1\PracticalApp.dll
+G:\Practical Exam 02\PracticalApp\PracticalApp\obj\Debug\netcoreapp2.1\PracticalApp.pdb

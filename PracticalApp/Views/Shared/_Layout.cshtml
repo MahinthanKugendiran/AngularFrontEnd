@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+
+    <link rel="shortcut icon" href="../files/assets/images/favi_icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+
+    <link rel="stylesheet" href="../files/assets/pages/waves/css/waves.min.css" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" href="../files/bower_components/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../files/assets/pages/waves/css/waves.min.css" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" href="../files/assets/icon/themify-icons/themify-icons.css">
+    <link rel="stylesheet" type="text/css" href="../files/assets/icon/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../files/assets/css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="../files/amcharts/export.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="../files/assets/pages/chart/radial/css/radial.css" type="text/css" media="all">
+    @*<link rel="stylesheet" type="text/css" href="../files/bower_components/switchery/css/switchery.min.css">*@
+    <link rel="stylesheet" type="text/css" href="../files/bower_components/datatables.net-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="../files/assets/pages/data-table/css/buttons.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="../files/bower_components/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="../files/assets/pages/data-table/extensions/responsive/css/responsive.dataTables.css">
+
+    <!--select2 -->
+    <link rel="stylesheet" href="../files/bower_components/select2/css/select2.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="../files/assets/css/style.css">
+
+    <style>
+        .ims-breadcrumb ul li {
+            display: inline;
+        }
+
+        .ims-breadcrumb li + li::before {
+            content: " > ";
+        }
+
+        .ims-breadcrumb ul li {
+            font-weight: bold;
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        }
+
+        .tbl-btn {
+            padding: 2px 4px !important;
+            font-size: 13px;
+        }
+
+        .modal-lg {
+            max-width: 80% !important;
+        }
+
+        .users-width {
+            width: 300px !important;
+        }
+
+        /* The container */
+        .container1 {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            /*margin-bottom: 12px;*/
+            cursor: pointer;
+            /*font-size: 22px;*/
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+            /* Hide the browser's default checkbox */
+            .container1 input {
+                position: absolute;
+                opacity: 0;
+                cursor: pointer;
+            }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 20px;
+            width: 20px;
+            border-color: black;
+            background-color: #eee;
+        }
+
+        /* On mouse-over, add a grey background color */
+        .container:hover input ~ .checkmark {
+            background-color: #ccc;
+        }
+
+        /* When the checkbox is checked, add a blue background */
+        .container1 input:checked ~ .checkmark {
+            background-color: #2196F3;
+        }
+
+        /* Create the checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .container1 input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .container1 .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 4px;
+            height: 10px;
+            border: solid white;
+            border-width: 0 2px 2px 0;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+    </style>
+</head>
+<body>
+
+
+    @RenderBody()
+
+    @*<script type="text/javascript" src="../files/bower_components/switchery/js/switchery.min.js"></script>*@
+
+    <script type="text/javascript" src="../files/bower_components/jquery/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../files/bower_components/jquery-ui/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../files/bower_components/popper.js/js/popper.min.js"></script>
+    <script type="text/javascript" src="../files/bower_components/bootstrap/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="../files/assets/js/script.js"></script>
+    @*<script type="text/javascript" src="../files/assets/pages/advance-elements/swithces.js"></script>*@
+
+
+
+    <script type="text/javascript" src="../files/assets/pages/widget/excanvas.js"></script>
+    <script src="../files/assets/pages/waves/js/waves.min.js"></script>
+    <script type="text/javascript" src="../files/bower_components/jquery-slimscroll/js/jquery.slimscroll.js"></script>
+    <script type="text/javascript" src="../files/bower_components/modernizr/js/modernizr.js"></script>
+    @*<script type="text/javascript" src="../files/assets/js/SmoothScroll.js"></script>*@
+    <script src="../files/assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="../files/bower_components/chart.js/js/Chart.js"></script>
+    <script src="../files/amcharts/amcharts.js"></script>
+    <script src="../files/assets/pages/widget/amchart/gauge.min.js"></script>
+    <script src="../files/assets/pages/widget/amchart/serial.min.js"></script>
+    <script src="../files/assets/pages/widget/amchart/light.min.js"></script>
+    <script src="../files/assets/pages/widget/amchart/pie.min.js"></script>
+    <script src="../files/amcharts/export.min.js"></script>
+
+
+    <script src="../files/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="../files/bower_components/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+
+   
+
+
+
+    <script src="../files/assets/pages/data-table/js/jszip.min.js"></script>
+    <script src="../files/assets/pages/data-table/js/pdfmake.min.js"></script>
+    <script src="../files/assets/pages/data-table/js/vfs_fonts.js"></script>
+    <script src="../files/bower_components/datatables.net-buttons/js/buttons.print.min.js"></script>
+    <script src="../files/bower_components/datatables.net-buttons/js/buttons.html5.min.js"></script>
+    <script src="../files/bower_components/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
+    <script src="../files/bower_components/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="../files/bower_components/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
+    @*<script src="../files/assets/pages/data-table/js/data-table-custom.js"></script>*@
+
+    <script type="text/javascript" src="../files/bower_components/select2/js/select2.full.min.js"></script>
+
+    <script type="text/javascript" src="../files/bower_components/sweetalert/js/sweetalert.min.js"></script>
+    @*<script type="text/javascript" src="../files/assets/js/modal.js"></script>*@
+    <script src="../files/assets/js/classie.js"></script>
+    <script type="text/javascript" src="../files/assets/js/modalEffects.js"></script>
+
+    <script src="../files/assets/js/pcoded.min.js"></script>
+    <script src="../files/assets/js/vertical/vertical-layout.min.js"></script>
+
+
+    @RenderSection("Scripts", required: false)
+
+</body>
+</html>
